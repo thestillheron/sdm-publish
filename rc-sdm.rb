@@ -9,7 +9,7 @@ class RcSdm < Formula
       sha256 "8ac0ddcb419f953f47a33fbf7e8667a9992d5eb9c9fb664b1e35cc0f4352c4b0"
   
       def install
-        bin.install Dir["output/*"]
+        bin.install Dir["*"]
       end
     end
   end
