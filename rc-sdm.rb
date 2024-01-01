@@ -9,7 +9,7 @@ class RcSdm < Formula
       sha256 "65e0c64aaf42b45c283b9ea2d714935015fb12bd1e1535323096f39c7e6afefb"
   
       def install
-        prefix.install Dir["output/*"]
+        bin.install "rc-sdm"
       end
     end
   end
