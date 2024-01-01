@@ -6,7 +6,7 @@ class RcSdm < Formula
   
     on_macos do
       url "https://replaycityapi-distributionbucket41178fc6-9ze5rgy0nrnn.s3.ap-southeast-2.amazonaws.com/rc-sdm.tar.gz"
-      sha256 "65e0c64aaf42b45c283b9ea2d714935015fb12bd1e1535323096f39c7e6afefb"
+      sha256 "8ac0ddcb419f953f47a33fbf7e8667a9992d5eb9c9fb664b1e35cc0f4352c4b0"
   
       def install
         bin.install "rc-sdm"
