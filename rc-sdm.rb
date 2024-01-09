@@ -7,7 +7,7 @@ class RcSdm < Formula
     on_macos do
       on_arm do
         url "https://replaycityapi-distributionbucket41178fc6-9ze5rgy0nrnn.s3.ap-southeast-2.amazonaws.com/rc-sdm.tar.gz"
-        sha256 "8ac0ddcb419f953f47a33fbf7e8667a9992d5eb9c9fb664b1e35cc0f4352c4b0"
+        sha256 "6d6cddb0ac5aa80b3a3f3ccf27beee5d773b420d3660bdec88f1e18f4c40cc58"
     
         def install
           bin.install Dir["arm64/*"]
@@ -16,7 +16,7 @@ class RcSdm < Formula
 
       on_intel do
         url "https://replaycityapi-distributionbucket41178fc6-9ze5rgy0nrnn.s3.ap-southeast-2.amazonaws.com/rc-sdm.tar.gz"
-        sha256 "8ac0ddcb419f953f47a33fbf7e8667a9992d5eb9c9fb664b1e35cc0f4352c4b0"
+        sha256 "6d6cddb0ac5aa80b3a3f3ccf27beee5d773b420d3660bdec88f1e18f4c40cc58"
     
         def install
           bin.install Dir["x64/*"]

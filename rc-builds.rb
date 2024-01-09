@@ -7,7 +7,7 @@ class RcBuilds < Formula
     on_macos do
       on_arm do
         url "https://replaycityapi-distributionbucket41178fc6-9ze5rgy0nrnn.s3.ap-southeast-2.amazonaws.com/rc-builds.tar.gz"
-        sha256 "8ac0ddcb419f953f47a33fbf7e8667a9992d5eb9c9fb664b1e35cc0f4352c4b0"
+        sha256 "0997214793d6c25953b99f80a8a897b90cb8586870b742f29bfa9bdbfa3de85d"
     
         def install
           bin.install Dir["arm64/*"]
@@ -16,7 +16,7 @@ class RcBuilds < Formula
 
       on_intel do
         url "https://replaycityapi-distributionbucket41178fc6-9ze5rgy0nrnn.s3.ap-southeast-2.amazonaws.com/rc-builds.tar.gz"
-        sha256 "8ac0ddcb419f953f47a33fbf7e8667a9992d5eb9c9fb664b1e35cc0f4352c4b0"
+        sha256 "0997214793d6c25953b99f80a8a897b90cb8586870b742f29bfa9bdbfa3de85d"
     
         def install
           bin.install Dir["x64/*"]
