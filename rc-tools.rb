@@ -7,7 +7,7 @@ class RcTools < Formula
     on_macos do
       on_arm do
         url "https://assets.replaycity.tech/0.0.1/mac/rc-tools.tar.gz"
-        sha256 "2a4eaa66e9b06672a1e79428a21a4058e4a72337d8782d89a749fe4af0587c0c"
+        sha256 "904a69c361281d6f188b7b35717e9cd19822b4b3bc88369a52f1a150cfe3d2f1"
     
         def install
           bin.install Dir["arm64/*"]
@@ -16,7 +16,7 @@ class RcTools < Formula
 
       on_intel do
         url "https://assets.replaycity.tech/0.0.1/mac/rc-tools.tar.gz"
-        sha256 "2a4eaa66e9b06672a1e79428a21a4058e4a72337d8782d89a749fe4af0587c0c"
+        sha256 "904a69c361281d6f188b7b35717e9cd19822b4b3bc88369a52f1a150cfe3d2f1"
     
         def install
           bin.install Dir["x64/*"]
